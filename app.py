@@ -4,6 +4,9 @@ from groq import Groq
 import numpy as np
 import matplotlib.pyplot as plt
 
+os.environ["GROQ_API_KEY"] = "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"
+
+
 # Initialize Streamlit session state for calculator input
 if "calculator_input" not in st.session_state:
     st.session_state["calculator_input"] = ""
