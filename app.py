@@ -207,6 +207,7 @@ def main():
             tip = response.choices[0].message.content
             st.write("Study Tip:")
             st.write(tip)
+            
+if __name__ == "__main__":
 
-if _name_ == "_main_":
     main()
